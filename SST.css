@@ -1,0 +1,369 @@
+body {
+	font-family: Abel, sans-serif;
+	font-optical-sizing: auto;
+	color: ivory;
+	background-color: black;
+  }
+
+
+
+  p {
+	font-family: Abel, sans-serif;
+	color:Ivory;
+	text-align: center;
+	font-size: 100px;
+  }
+
+  h1 {
+	font-family: Abel, sans-serif;
+	color: ivory;
+	text-align: center;
+
+  }
+
+  li {
+	font-family: Abel, sans-serif;
+	color: ivory;
+  }
+
+
+/* Logo on top */
+
+  #bandLogo {
+
+	object-position: center;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	max-width: 70%;
+	max-height: 100%;
+	margin: auto;
+	-webkit-animation: fadein 666ms ease-in;
+	-moz-animation: fadein 666ms ease-in;
+	animation: fadein 666ms ease-in;
+}
+
+/* NAVBAR */
+
+
+
+.navbar {
+	
+	margin-bottom: 0;
+	background-color: #000000;
+	border: 1;
+	font-size: 11px !important;
+	letter-spacing: 4px;
+	opacity: ;
+	z-index: +1;
+}
+
+  .navbar li a, .navbar-brand {
+	
+	color: ivory;
+	background-color: black;
+	font-family: Abel;
+	font-size: 30px;
+	opacity: 1;
+	margin-bottom: 0;
+	border: 0;
+	font-size: 30px !important;
+	letter-spacing: 6px; 
+  }
+  
+
+
+  .nav-link {
+	padding-left: 30px;
+	padding-right: 30px;
+	-webkit-animation: fadein 666ms ease-in;
+	-moz-animation: fadein 666ms ease-in;
+	animation: fadein 666ms ease-in;
+  }
+
+  .nav-item {
+	padding-left: 30px;
+	padding-right: 30px;
+	-webkit-animation: fadein 1s ease-in;
+	-moz-animation: fadein 1s ease-in;
+	animation: fadein 1s ease-in;
+  }
+
+
+  /* Remove border color from the collapsible button */
+  .navbar-default .navbar-toggle {
+	border-color: transparent;
+	object-position: center;
+  }
+  .navbar-toggler {
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 9px;
+	background-color: rgba(33, 33, 33, 0.575);
+  }
+
+  .navbar-toggler.icon {
+	border-width: thick;
+	
+  }
+
+  /* Dropdown */
+  .open .dropdown-toggle {
+	color: rgb(255, 10, 10);
+	
+  }
+
+  /* Dropdown links */
+  .dropdown-menu .show li a {
+	color: rgb(0, 0, 0) !important;
+	background-color: rgb(0, 0, 0);
+  }
+
+
+
+  #NN {
+	width: auto;
+	
+	background: black;
+	-webkit-animation: fadein 666ms ease-in;
+	-moz-animation: fadein 666ms ease-in;
+	animation: fadein 666ms ease-in;
+	padding-bottom: 5px;
+  }
+
+  #NN:hover {opacity: 0.5;}
+
+
+  #togglerlogo {
+
+	object-position: inherit;
+	object-fit: contain;
+	max-width: 150%;
+	height: auto;
+ }
+
+/* for sticky navbar on scroll */
+
+ .sticky {
+	position: fixed;
+	top: 0;
+	right: 0;
+	
+	width: 100%;
+  }
+  
+  .sticky + .content {
+	padding-top: 60px;
+  }
+
+
+
+
+/*.cookie-banner {
+	position: fixed;
+	bottom: 40px;
+	left: 10%;
+	right: 10%;
+	width: 80%;
+	padding: 5px 14px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #eee;
+	border-radius: 5px;
+	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  */
+
+  .close {
+	height: 20px;
+	background-color: #777;
+	border: none;
+	color: white;
+	border-radius: 2px;
+	cursor: pointer;
+  }
+
+
+
+ 
+
+  .dropdown-item a {
+
+	background-color: magenta;
+  }
+
+
+
+
+
+
+  @-webkit-keyframes fadein {
+	0% {
+	  opacity: 0;
+	}
+
+	100% {
+	  opacity: 1;
+	}
+  }
+
+  @-moz-keyframes fadein {
+	0% {
+	  opacity: 0;
+	}
+
+	100% {
+	  opacity: 1;
+	}
+  }
+
+  @keyframes fadein {
+	0% {
+	  opacity: 0;
+	}
+
+	100% {
+	  opacity: 1;
+	}
+  }
+
+  @media screen and (max-width: 540px) {
+	.navbar-brand {
+	  flex-grow: 2;
+	}
+  }
+
+
+  #carouselcontainer {
+	-webkit-animation: fadein 2s ease-in;
+	-moz-animation: fadein 2s ease-in;
+	animation: fadein 2s ease-in;
+	object-fit: contain;
+  }
+
+.carousel {
+		
+		width: 100%;
+		z-index: -1; /* puts objects in the back, +1 would put it in front... */
+
+}
+
+  .carousel-inner img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(50%);
+
+	/* Set width to 100%   cover */
+	object-fit: cover;
+	width: 100%;
+	height: auto;
+	margin: auto;
+  }
+
+  .carousel-control-prev {
+	position: auto;
+	size: 100%;
+	margin: auto;
+  }
+
+  .carousel-control-next-icon li {
+
+	position: top;
+  }
+
+
+
+  @media (max-width: 600px) {
+	.carousel-caption {
+	  display: none;
+	  /* Hide the carousel text when the screen is less than 600 pixels wide */
+	}
+  }
+
+
+
+  .container {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	background-color: black;
+
+	padding: 80px 50px;
+	color: white;
+	object-position: contain;
+
+  }
+
+  #sectioncontent {
+
+	text-align: center;
+	object-position: center;
+	;
+
+  }
+
+  .jumbotron {
+	background-color: black;
+	font-family: Abel, sans-serif;
+	font-size: 100px;
+	object-position: center;
+  }
+
+
+  .row {
+
+	position: static;
+  }
+
+
+
+
+  .bandmember {
+
+	border: 6.9px solid transparent;
+	border-color: rgb(61, 67, 73) margin-bottom 10px;
+	width: 300px;
+	height: 300px;
+	opacity: 0.86;
+	object-fit: cover;
+	object-position: fixed;
+  }
+
+  .bandmember:hover {
+
+	border-color: #333333;
+	border-style: solid;
+  }
+
+  .live {
+	background: #00000028;
+	color: #ffffff;
+
+  }
+
+  .live h1 {
+	font-size: 90px;
+  }
+
+  .live h2 {
+	text-align: center;
+	font-stretch: extra-expanded;
+	color: ivory;
+	font-family: Abel, italic;
+	font-size: 36px;
+
+  }
+
+  .live p {
+
+	color: ivory;
+	font-size: 24px;
+	text-align: center;
+  }
+
+
+
+  #bandmember p {
+
+	color: ivory;
+	font-size: 12px;
+	text-align: center;
+  }
+  
